@@ -1,2 +1,2 @@
 # Portfolio
-My personal portfolio using React libraries
+My personal portfolio using React
