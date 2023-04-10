@@ -3,11 +3,13 @@ import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import SkillsPage from "./components/SkillsPage";
 import ContactPage from "./components/ContactPage";
-import { BrowserRouter, Routes, Route, Navlink} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
+import { Container } from "@mui/material"
 
-const App = function() {
+const App = () => {
     return(
+        <Container fixed>
         <BrowserRouter>
             <div>
                 <header>
@@ -21,6 +23,7 @@ const App = function() {
                 </Routes>
             </div>
         </BrowserRouter>
+        </Container>
     )
 }
 
